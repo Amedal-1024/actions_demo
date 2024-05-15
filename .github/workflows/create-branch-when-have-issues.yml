@@ -1,0 +1,9 @@
+name: create-branch-when-have-issues
+on: [issues]
+
+jobs:
+  create-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create-Issues
+        run: echo create issues sucess 
